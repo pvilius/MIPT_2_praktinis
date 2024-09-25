@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">MIPT_2_praktinis</string>
     <string name="app_title">Word / Character Counter</string>
-    <string name="input_hint">Enter text here</string>
+    <string name="input_hint">  Enter text here</string>
     <string name="count_button">Count</string>
     <string-array name="count_type">
         <item>Count Words </item>
         <item>Count Characters</item>
     </string-array>
     <string name="error_empty_input">Input cannot be empty! Write something to count!!!</string>
+    <string name="output_hint">Results will appear here</string>
 </resources>
