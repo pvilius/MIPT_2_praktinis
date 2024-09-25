@@ -12,58 +12,65 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_title"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/editInputText"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.495" />
+        app:layout_constraintVertical_bias="0.524" />
 
     <EditText
         android:id="@+id/editInputText"
-        android:layout_width="365dp"
-        android:layout_height="378dp"
+        android:layout_width="342dp"
+        android:layout_height="428dp"
+        android:background="@android:color/transparent"
         android:ems="10"
-        android:inputType="text"
+        android:gravity="top|left"
         android:hint="@string/input_hint"
+        android:inputType="text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.189" />
+        app:layout_constraintVertical_bias="0.313" />
 
     <Spinner
         android:id="@+id/spinnerCountType"
-        android:layout_width="366dp"
-        android:layout_height="31dp"
+        android:layout_width="342dp"
+        android:layout_height="25dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editInputText"
-        app:layout_constraintVertical_bias="0.103" />
+        app:layout_constraintVertical_bias="0.049" />
 
     <Button
         android:id="@+id/btnCount"
-        android:layout_width="367dp"
-        android:layout_height="47dp"
+        android:layout_width="342dp"
+        android:layout_height="37dp"
         android:text="@string/count_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinnerCountType"
-        app:layout_constraintVertical_bias="0.144" />
+        app:layout_constraintVertical_bias="0.16" />
 
     <TextView
         android:id="@+id/tvResults"
-        android:layout_width="365dp"
-        android:layout_height="41dp"
+        android:layout_width="335dp"
+        android:layout_height="81dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCount"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintVertical_bias="0.509" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
