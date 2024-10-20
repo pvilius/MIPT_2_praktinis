@@ -9,4 +9,8 @@
     </string-array>
     <string name="error_empty_input">Input cannot be empty! Write something to count!!!</string>
     <string name="output_hint">Results will appear here</string>
+    <string name="result_words">Words:</string>
+    <string name="result_characters">Characters:</string>
+    <string name="result_null"></string>
+
 </resources>

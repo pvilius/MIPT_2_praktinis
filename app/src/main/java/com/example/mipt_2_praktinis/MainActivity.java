@@ -56,14 +56,14 @@ public class MainActivity extends AppCompatActivity {
                 }
 
             int selectedCountType = spinnerCountType.getSelectedItemPosition();
-            String result = "";
+            String result = getString(R.string.result_null);
 
             WordCharacterCounter counter = new WordCharacterCounter();
 
                 if (selectedCountType == 0) {
-                result = "Words: " + counter.getWordsCount(inputText);
+                result = getString(R.string.result_words) + counter.getWordsCount(inputText);
             } else if (selectedCountType == 1) {
-                result = "Characters: " + counter.getCharactersCount(inputText);
+                result = getString(R.string.result_characters) + counter.getCharactersCount(inputText);
             }
 
                 tvResults.setText(result);
